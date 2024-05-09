@@ -39,3 +39,15 @@ graph1 + theme(legend.title=element_blank())
 graph1 + theme(legend.position="top")
 
 graph1 + theme(legend.position="bottom")
+sd(data$Sepal.Length)
+var(data$Sepal.Length)
+mean(data$Sepal.Length)
+median(data$Sepal.Length)
+
+#data<-c(34,56,12,34,32,89,70,65,45,678,90,890,760,55)
+library(moments)
+skewness(data)
+library(moments)
+kurtosis(data)
+
+
